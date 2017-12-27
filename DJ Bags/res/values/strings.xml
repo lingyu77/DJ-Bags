@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DJ Bags</string>
+    <string name="message">Not finish!</string>
+    <string name="id">帳號 : </string>
+    <string name="password">密碼: </string>
+    <string name="login">登入 </string>
+    <string name="register">註冊 </string>
+    <string name="login_title">DJ 登入 </string>
+    <string name="feedback_title">DJ Bags 意見回饋</string> 
+    <string name="error_login">帳號密碼不符合，登入失敗! </string>
+    <string name="sdcardError">Please insert SD card </string>
+    <string name="numListener">目前聽眾人數: </string>
+    <string name="about">關於 DJ Bags </string>
+    <string name="introduction"> DJ Bags意指背包客DJ，是一個追求即時分享自己此時此地的心情給大眾的多媒體軟體。人人都可以是DJ，DJ Bags提供簡易的操作介面與雲端多媒體電台讓DJ們製作與播放影音故事表達心情；而同時也可以利用DJ Bags收聽其他DJ分享的影音故事。本系統僅提供分享戶動平台， 禁止撥放非法音樂，如觸法請自行負擔法律責任!</string>
+    <string name="menu_about">關於</string>
+    <string name="menu_feedback">意見回饋</string> 
+    <string name="str_message">str_message</string> 
+    
+    <string name="error_register">此註冊帳號重複或格式不符，請更改!</string>
+    
+    
+    <!-- register DJ profile -->
+    <string name="id_repeat">此帳號已註冊過，請更換!</string>
+    <string name="error_null">欄位請勿空白!</string>
+    <string name="error_pw">密碼不相符!</string>
+    <string name="error_email">電子郵件格式錯誤!</string>
+    
+    <!-- register EditInfo -->
+    <string name="register_ok">註冊成功</string>
+    
+    <!-- DJ -->
+    <string name="select">選擇歌曲</string>
+   
+    <color name="blue">#0000ff</color>
+</resources>

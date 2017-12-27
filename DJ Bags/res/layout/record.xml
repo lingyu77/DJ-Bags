@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" 
+  android:background="@drawable/recording">
+  
+  <ImageButton 
+  	  android:id="@+id/record" 
+	  android:layout_width="160px"
+	  android:layout_height="100px"
+	  android:layout_marginTop="620px"
+	  android:layout_marginLeft="0px" 
+      android:background="@drawable/threebtn">
+  </ImageButton>
+  
+  <ImageButton 
+  	  android:id="@+id/stop" 
+	  android:layout_width="160px"
+	  android:layout_height="100px"
+	  android:layout_marginTop="620px"
+	  android:layout_marginLeft="160px" 
+      android:background="@drawable/threebtn">
+  </ImageButton>
+  
+  <ImageButton 
+  	  android:id="@+id/play" 
+	  android:layout_width="160px"
+	  android:layout_height="100px"
+	  android:layout_marginTop="620px"
+	  android:layout_marginLeft="320px" 
+      android:background="@drawable/threebtn">
+  </ImageButton>
+  
+  <ImageButton 
+      android:id="@+id/delete" 
+	  android:layout_width="100px"
+	  android:layout_height="80px"
+	  android:layout_marginTop="0px"
+      android:layout_marginLeft="370px"
+      android:background="@drawable/topright">
+  </ImageButton>
+  
+  <TextView 
+      android:id="@+id/status" 
+	  android:layout_width="fill_parent" 
+	  android:layout_height="wrap_content" 
+	  android:layout_marginTop="80px"
+      android:textColor="@drawable/black">
+  </TextView>
+  
+  <ListView 
+      android:id="@+id/ListView01" 
+      android:layout_height="350px"
+      android:layout_width="wrap_content" 
+	  android:layout_marginTop="120px" >
+  </ListView>
+  
+</RelativeLayout>

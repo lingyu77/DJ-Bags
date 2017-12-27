@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/register"
+    >
+
+	<EditText
+		android:id="@+id/useridtext"
+		android:layout_width="310px"
+		android:layout_height="wrap_content"
+		android:singleLine = "true"
+		android:layout_marginTop="120px"
+		android:text="test"
+		android:layout_marginLeft="130px">
+	</EditText>
+
+	<EditText
+		android:id="@+id/pwtext"
+		android:layout_width="310px"
+		android:layout_height="wrap_content"
+		android:singleLine = "true"
+		android:layout_marginTop="220px"
+		android:text="test"
+		android:layout_marginLeft="130px">
+	</EditText>
+	
+	<EditText
+		android:id="@+id/pwagaintext"
+		android:layout_width="400px"
+		android:layout_height="wrap_content"
+		android:singleLine = "true"
+		android:text="test"
+		android:layout_marginTop="380px"
+		android:layout_marginLeft="40px">
+	</EditText>
+	
+	<EditText
+		android:id="@+id/emailtext"
+		android:layout_width="400px"
+		android:layout_height="wrap_content"
+		android:singleLine = "true"
+		android:layout_marginTop="495px"
+		android:text="test@gmail.com"
+		android:layout_marginLeft="40px">	
+	</EditText>
+	
+	<ImageButton
+		android:id="@+id/nextstep"
+        android:layout_width="480px"
+        android:layout_height="110px"
+        android:layout_marginTop="620px"
+        android:background="@drawable/button">
+	</ImageButton>
+	
+</RelativeLayout>
+

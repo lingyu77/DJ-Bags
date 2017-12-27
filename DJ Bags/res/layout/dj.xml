@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/dj"    
+    >
+  <TextView  
+	  android:id="@+id/state"
+	  android:layout_width="fill_parent" 
+	  android:layout_height="wrap_content" 
+	  android:layout_marginTop="80px"
+      /> 
+  <TextView  
+	  android:id="@+id/djname"
+	  android:layout_width="fill_parent" 
+	  android:layout_height="wrap_content" 
+	  android:layout_marginTop="10px"
+      android:layout_marginLeft="150px" 
+	  android:textSize="32sp"
+      />
+
+  <ImageButton
+	  android:id="@+id/add"
+	  android:layout_width="100px"
+	  android:layout_height="80px"
+	  android:layout_marginTop="0px"
+      android:layout_marginLeft="370px"
+	  android:background="@drawable/topright"  
+      /> 
+      
+  <ImageButton
+	  android:id="@+id/record"
+	  android:layout_width="240px"
+	  android:layout_height="108px"
+	  android:layout_marginTop="620px"
+	  android:layout_marginLeft="0px"	
+	  android:background="@drawable/halfbutton"  
+  	  />
+  	             
+  <ImageButton
+	  android:id="@+id/play"
+	  android:layout_width="240px"
+	  android:layout_height="108px"
+	  android:layout_marginTop="620px"
+	  android:layout_marginLeft="240px"	
+	  android:background="@drawable/halfbutton"  
+  	  />
+
+  <ListView 
+	  android:id="@+id/songList" 
+	  android:layout_marginTop="120px"
+	  android:layout_width="wrap_content" 
+	  android:layout_height="350px">
+      </ListView>	  
+
+  <ImageButton
+	  android:id="@+id/voice"
+	  android:layout_width="60px"
+	  android:layout_height="49px"
+	  android:layout_marginTop="500px"
+      android:layout_marginLeft="50px"
+	  android:background="@drawable/voice"  
+      />      
+  <SeekBar
+      android:id="@+id/skbVolume"    
+	  android:layout_width="320px"   
+	  android:layout_height="50px"    
+	  android:layout_marginTop="500px"
+	  android:layout_marginLeft="135px"  
+	  android:progress="7"  
+      />
+     	  
+  <!--  
+  <ImageButton
+	  android:id="@+id/repaet" 
+	  android:layout_height="68px"  
+	  android:layout_width="72px" 
+	  android:layout_marginTop="300px"
+	  android:layout_marginLeft="390px" 
+	  android:background="@drawable/repeat" 
+      />  
+  <ImageButton
+	  android:id="@+id/before" 
+	  android:layout_height="50px"  
+	  android:layout_width="60px" 
+	  android:layout_marginTop="300px"
+	  android:layout_marginLeft="120px" 
+	  android:background="@drawable/before" 
+      />
+  <ImageButton
+	  android:id="@+id/next" 
+	  android:layout_height="50px"  
+	  android:layout_width="60px"
+	  android:layout_marginTop="300px"
+      android:layout_marginLeft="300px"
+	  android:background="@drawable/next" 
+      />  
+     
+  <ImageButton
+	  android:id="@+id/stop"
+	  android:layout_width="68px"
+	  android:layout_height="72px"
+	  android:layout_marginTop="100px"
+      android:layout_marginLeft="400px"
+	  android:background="@drawable/stop"  
+      />
+   --> 
+   
+</RelativeLayout>

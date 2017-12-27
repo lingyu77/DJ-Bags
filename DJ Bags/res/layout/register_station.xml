@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	android:id="@+id/widget70"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/register2"
+	>
+	<EditText
+		android:id="@+id/stationtext"
+		android:layout_width="400px"
+		android:layout_height="wrap_content"
+		android:singleLine = "true"
+		android:layout_marginTop="145px"
+		android:layout_marginLeft="40px">
+	</EditText>
+
+    <EditText 
+		android:id="@+id/statementtext" 
+		android:layout_width="400px"
+		android:layout_height="wrap_content"
+		android:singleLine="true" 
+		android:layout_marginTop="245px"
+		android:layout_marginLeft="40px">  
+	</EditText>
+	
+	<ImageView
+		android:id="@+id/thumbnail_show"
+		android:layout_width="300px"
+		android:layout_height="300px"
+		android:layout_marginTop="350px"
+		android:layout_marginLeft="60px">
+	</ImageView>
+	
+	<Button 
+		android:id="@+id/button_select" 
+		android:text="瀏覽" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:layout_marginTop="315px"
+		android:layout_marginLeft="365px">
+	</Button>
+
+	<ImageButton 
+		android:id="@+id/button_submit" 
+        android:layout_width="480px"
+        android:layout_height="110px"
+        android:layout_marginTop="620px"
+        android:background="@drawable/button">	
+	</ImageButton>
+	
+</RelativeLayout>
+
+
