@@ -11,6 +11,7 @@ Please watch the **DEMO** of DJ Bags for more details
 * Context aware : According to location, weather, and date to recommend your own unique songs)
 
 ### FrameWork
+![Idea](https://user-images.githubusercontent.com/34279209/34449410-9ba0bd72-ecef-11e7-884b-d2e966201615.jpg)
 ![Framework](https://user-images.githubusercontent.com/34279209/34448586-be0c4f24-ece6-11e7-998a-f9b0477e3f00.jpg)
 
 ### Audio Programs
@@ -26,3 +27,4 @@ Provide online audio program list. You can choose anyone you like or refer popul
 
 ### Context Aware . Recommend system
 ![Recommendation](https://user-images.githubusercontent.com/34279209/34448585-bdcc398e-ece6-11e7-8d7e-348fd87933fb.jpg)
+![Recommendation2](https://user-images.githubusercontent.com/34279209/34449283-a40e06e6-ecee-11e7-9c2a-62dfdd1a49dc.PNG)
